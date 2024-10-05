@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "sidebar-09",
+			"path": "."
+		},
+		{
+			"name": "bootstrap",
+			"path": "../../../../../xampp/htdocs/projects/bootstrap"
+		}
+	],
+	"settings": {}
+}

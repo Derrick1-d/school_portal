@@ -1,0 +1,187 @@
+/* Reset some default styles */
+body, ul {
+  font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: rgb(255, 255, 255)fff;
+    color: #000000;
+    padding: 10px 0;
+    width: 78%;
+    margin-right: 20px;
+    padding: 20px;
+    border: #000000 1px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .navbar-left {
+    flex: 1;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .admin-name {
+    margin-right: 10px;
+  }
+  
+  .logout-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .logout-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /*sisebar */
+  
+
+  .sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    border: #000000 1px solid;
+  }
+  
+  .school-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .school-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .school-name {
+    color: #000000;
+    margin-top: 10px;
+  }
+  
+  .menu {
+    
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    
+    padding: 10px 0;
+  }
+  
+  .menu li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 20px;
+  }
+  
+  .menu li a:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  
+   /* Custom CSS for icon colors */
+   .home-icon {
+    color: #007bff; /* Blue color */
+  }
+
+  .attendance-icon {
+    color: #007bff; /* Blue color */
+  }
+  .class-list-icon {
+    color: #28a745; /* Green color */
+  }
+  .timetable-icon {
+    color: #dc3545; /* Red color */
+  }
+  .exam-timetable-icon {
+    color: #ffc107; /* Yellow color */
+  }
+  .calendar-icon {
+    color: #6610f2; /* Purple color */
+  }
+  .news-icon {
+    color: #17a2b8; /* Cyan color */
+  }
+  .exam-results-icon {
+    color: #fd7e14; /* Orange color */
+  }
+  .settings-icon {
+    color: #20c997; /* Teal color */
+  }
+  .configuration-icon {
+    color: #6c757d; /* Gray color */
+  }
+
+  .icon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    width: 78%;
+    float: right;
+    margin-top: 80px;
+    margin-right: 20px;
+  }
+
+  /* Custom CSS for each icon box */
+  .icon-box {
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+.icon-box a{
+  color: black;
+  text-decoration: none;
+}
+.icon-box a:hover{
+  color: red;
+}
+
+
+/* Default white theme */
+body.white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Black theme */
+body.black {
+  background-color: #000000;
+  color: #ffffff;
+}
